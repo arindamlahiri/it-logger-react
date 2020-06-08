@@ -1,42 +1,47 @@
 {
-    "logs":[
-        {
-            "id":1,
-            "message":"Fixed server 456",
-            "attention":false,
-            "date":"03-02-2020",
-            "tech":"Sam Smith"
-        },
-        {
-            "id":2,
-            "message":"Changed memory on workstation 68",
-            "attention":true,
-            "date":"03-05-2020",
-            "tech":"John Doe"
-        },
-        {
-            "id":3,
-            "message":"Changed drive in workstation 230",
-            "attention":false,
-            "date":"03-06-2020",
-            "tech":"Sara Wilson"
-        }
-    ],
-    "techs":[
-        {
-            "id":1,
-            "firstName":"John",
-            "lastName":"Doe"
-        },
-        {
-            "id":2,
-            "firstName":"Sam",
-            "lastName":"Smith"
-        },
-        {
-            "id":3,
-            "firstName":"Sara",
-            "lastName":"Wilson"
-        }
-    ]
+  "logs": [
+    {
+      "id": 1,
+      "message": "new network card damaged",
+      "attention": false,
+      "tech": "Arindam Lahiri",
+      "date": "2020-06-08T21:46:19.454Z"
+    },
+    {
+      "message": "Hard drive failed in 007",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2020-06-08T19:24:33.841Z",
+      "id": 2
+    },
+    {
+      "message": "Server Installed",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-06-08T19:24:54.109Z",
+      "id": 3
+    }
+  ],
+  "techs": [
+    {
+      "firstName": "Arindam",
+      "lastName": "Lahiri",
+      "id": 4
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Wilson",
+      "id": 6
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "id": 7
+    },
+    {
+      "firstName": "Siddhant",
+      "lastName": "Sawalka",
+      "id": 8
+    }
+  ]
 }
